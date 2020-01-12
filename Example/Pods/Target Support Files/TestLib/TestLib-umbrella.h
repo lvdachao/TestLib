@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "YYHTest.h"
 
 FOUNDATION_EXPORT double TestLibVersionNumber;
 FOUNDATION_EXPORT const unsigned char TestLibVersionString[];

@@ -7,6 +7,7 @@
 //
 
 #import "YYHViewController.h"
+#import "YYHTest.h"
 
 @interface YYHViewController ()
 
@@ -17,7 +18,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    [YYHTest testLog];
 }
 
 - (void)didReceiveMemoryWarning
