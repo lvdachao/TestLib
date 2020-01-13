@@ -18,7 +18,8 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [YYHTest testLog];
+    UIImageView *imageView = [YYHTest testLog];
+    [self.view addSubview:imageView];
 }
 
 - (void)didReceiveMemoryWarning

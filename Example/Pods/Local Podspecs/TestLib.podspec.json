@@ -1,8 +1,8 @@
 {
   "name": "TestLib",
-  "version": "0.1.0",
-  "summary": "A short description of TestLib.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "这是一个测试pod仓库的测试文件",
+  "description": "测试使用，勿扰",
   "homepage": "https://github.com/lvdachao/TestLib",
   "license": {
     "type": "MIT",
@@ -13,12 +13,17 @@
   },
   "source": {
     "git": "https://github.com/lvdachao/TestLib.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
   "source_files": "TestLib/Classes/**/*",
+  "resource_bundles": {
+    "TestLibBundle": [
+      "TestLib/Assets/*.xcassets"
+    ]
+  },
   "dependencies": {
     "AFNetworking": [
       "~> 2.3"

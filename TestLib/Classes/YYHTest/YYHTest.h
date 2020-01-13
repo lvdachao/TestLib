@@ -10,9 +10,9 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface YYHTest : NSObject
+@interface YYHTest : UIView
 
-+ (void)testLog;
++ (UIImageView *)testLog;
 
 @end
 
