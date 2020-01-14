@@ -12,8 +12,8 @@
 
 + (UIImageView *)testLog{
     UIImageView * imgView = [[UIImageView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];;
-    imgView.image = [self getImageWithBoudleName:@"TestLibBundle"
-                                         imgName:@"applePay"];
+//    imgView.image = [self getImageWithBoudleName:@"TestLibBundle"
+//                                         imgName:@"applePay"];
     imgView.backgroundColor = UIColor.redColor;
     return imgView;
 }

@@ -24,6 +24,7 @@
       "TestLib/Assets/*.xcassets"
     ]
   },
+  "resources": "TestLib/Assets/aa.bundle",
   "dependencies": {
     "AFNetworking": [
       "~> 2.3"
